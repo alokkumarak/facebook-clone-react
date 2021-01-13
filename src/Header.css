@@ -1,0 +1,75 @@
+.header {
+  background-color: white;
+  box-shadow: 0 0 15px rgb(27, 27, 27);
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+}
+.left__header > img {
+  height: 45px;
+}
+.left__header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.header__input {
+  width: 100px;
+  display: flex;
+  align-items: center;
+  background-color: #eff2f5;
+  padding: 10px;
+  margin-left: 10px;
+  border-radius: 999px;
+}
+.header__input > input {
+  border: none;
+  background-color: transparent;
+  outline-width: 0;
+}
+.middle__header {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.header__option > .MuiSvgIcon-root {
+  color: gray;
+}
+.header__option:hover > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+.header__option__active > .MuiSvgIcon-root {
+  color: #2e81f4;
+}
+.header__option__active {
+  border-bottom: 4px solid #2e81f4;
+}
+.header__option__active:hover {
+  border-bottom: 4px solid #2e81f4;
+}
+.header__option {
+  display: flex;
+  align-items: center;
+  padding: 0 30px;
+  cursor: pointer;
+}
+.header__option:hover {
+  background-color: #eff2f5;
+  border-radius: 10px;
+  align-items: center;
+  padding: 0 30px;
+  border-bottom: none;
+}
+.header__avatar {
+  display: flex;
+  align-items: center;
+}
+
+.header__avatar > h4 {
+  margin-left: 10px;
+}
+.right__header {
+  display: flex;
+}

@@ -1,0 +1,16 @@
+import { Avatar } from '@material-ui/core';
+import React from 'react';
+import './storyComponent.css';
+
+function StoryComponent({image, profileSrc,title}) {
+    return (
+        <div style={{backgroundImage:`url(${image})`}} className="storyComponent">
+            
+            <Avatar className="story__avatar"  src={profileSrc} />
+            <h4>{title}</h4>
+
+        </div>
+    )
+}
+
+export default StoryComponent;
